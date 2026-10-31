@@ -257,16 +257,6 @@ The simulator is a demonstration environment; it is not a live integration with 
 - **Applet ID:** `87ffdef0-a45e-4763-8d38-c355d7439e2d`
 - **Release identifier:** `v1.0.0-final-codesphere-3.0`
 - **Team:** FourBidden
-- **Final submitted commit:** `[ADD THE EXACT FINAL COMMIT HASH HERE]`
 
 ---
 
-## Before submitting
-
-- [ ] Replace `<repository-url>` with the actual public GitHub repository URL.
-- [ ] Confirm the setup commands match the scripts in `package.json`.
-- [ ] Confirm the listed model IDs and versions match the code that runs in the submitted build.
-- [ ] Check that the consent notice appears before the first screenshot or voice upload.
-- [ ] Check that `.env` and API keys are not committed.
-- [ ] Add the exact final commit hash after the build window ends.
-- [ ] Make sure every feature described as implemented is present and working in the submitted version.

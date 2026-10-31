@@ -1,0 +1,6 @@
+{
+  "name": "Nigehbaan",
+  "description": "Nigehbaan — Soch Lo, Phir Bharosa Karo. AI-powered digital safety assistant designed for elderly, non-technical, and low-literacy users.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

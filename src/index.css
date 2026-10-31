@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #FAF8F5;
+  }
+}
+
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Noto Sans Arabic', Tahoma, sans-serif;
+  line-height: 2.0;
+  letter-spacing: 0;
+}
+
+.font-urdu-title {
+  font-family: 'Noto Nastaliq Urdu', 'Noto Sans Arabic', Tahoma, sans-serif;
+  line-height: 2.2;
+  letter-spacing: 0;
+}
+
+/* Ensure Urdu text is always appropriately sized and comfortable to read */
+[lang="ur"], .font-urdu {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom pulse animations and touch targets for low-literacy clarity */
+.touch-target {
+  min-height: 48px;
+  min-width: 48px;
+}
